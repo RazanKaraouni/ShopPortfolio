@@ -1,0 +1,58 @@
+body{
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #000000;
+}
+
+.navbar .nav-link{
+    color:#000000;
+    transition:0.3s;
+}
+
+.navbar .nav-link:hover{
+    color:#ff078b;
+}
+.navbar .nav-link.active{
+     color:#ff078b;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.hero-section h1,
+.hero-section p {
+    color: #000000;
+}
+
+.hero-section-sm{
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.btn-pink{
+    background-color: #ff078b;
+    border-color: #ff078b;
+    color: #ffffff;
+}
+
+.btn-pink:hover{
+    background-color: #d4066f;
+    border-color: #d4066f;
+    color: #ffffff;
+}
+
+.product-card{
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover{
+    transform: translateY(-4px);
+}
