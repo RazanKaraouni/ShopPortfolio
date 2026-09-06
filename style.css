@@ -53,6 +53,29 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff;
 }
 
+#productsCarousel .carousel-item img{
+    height: 420px;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+    #productsCarousel .carousel-item img{
+        height: 280px;
+    }
+}
+
+#productsCarousel .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+
+#productsCarousel .carousel-caption h5,
+#productsCarousel .carousel-caption p{
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
 .product-card{
     border: none;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
