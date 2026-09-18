@@ -6,6 +6,7 @@ body{
 .navbar {
     z-index: 1030;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    align-items: left !important;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -18,10 +19,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .navbar .nav-link:hover{
-    color:#ff078b;
+    color:rgb(195, 21, 21);
 }
 .navbar .nav-link.active{
-     color:#ff078b;
+     color:rgb(195, 21, 21);
 }
 
 .hero-section{
@@ -42,38 +43,58 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn-pink{
-    background-color: #ff078b;
-    border-color: #ff078b;
+    background-color:rgb(195, 21, 21);
+    border-color: rgb(195, 21, 21);
     color: #ffffff;
 }
 
 .btn-pink:hover{
-    background-color: #d4066f;
-    border-color: #d4066f;
+    background-color: rgb(195, 21, 21); 
+    border-color: rgb(195, 21, 21);
     color: #ffffff;
 }
 
+#productsCarousel .carousel-item {
+    background-color: #f8f9fa;
+}
+
 #productsCarousel .carousel-item img{
-    height: 420px;
-    object-fit: cover;
+    height: 520px;
+    width: 100%;
+    object-fit: contain;
 }
 
 @media (max-width: 767.98px) {
     #productsCarousel .carousel-item img{
-        height: 280px;
+        height: 340px;
     }
 }
 
+.product-card .card-img-top {
+    height: 280px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
 #productsCarousel .carousel-caption{
-    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
+    position: static;
+    background-color: transparent;
+    padding: 1rem 0.75rem 0.25rem;
 }
 
 #productsCarousel .carousel-caption h5,
 #productsCarousel .carousel-caption p{
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 0.25rem;
+}
+
+#productsCarousel .carousel-indicators {
+    position: static;
+    margin: 0.75rem 0 0;
+}
+
+#productsCarousel .carousel-indicators [data-bs-target] {
+    background-color: #000000;
 }
 
 .product-card{
@@ -94,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-footer h5{
-    color: #ff078b;
+    color: rgb(195, 21, 21);
     font-weight: 700;
 }
 
@@ -104,7 +125,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-footer a:hover{
-    color: #ff078b;
+    color: rgb(195, 21, 21);
 }
 
 .site-footer .footer-copy{
